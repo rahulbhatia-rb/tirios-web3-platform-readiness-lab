@@ -1,0 +1,18 @@
+{
+  "service": "goldencity-platform",
+  "environment": "production",
+  "persistence_enabled": true,
+  "auth_configured": true,
+  "dynamic_remote_code_execution": false,
+  "secrets_managed": true,
+  "rpc_failover": true,
+  "indexer_enabled": true,
+  "idempotent_event_ingestion": true,
+  "reconciliation_job": true,
+  "wallet_transaction_tracking": true,
+  "contract_events_mapped": true,
+  "staking_source_of_truth": "contract-events+indexed-ledger",
+  "observability": true,
+  "health_checks": true,
+  "backup_restore": true
+}
