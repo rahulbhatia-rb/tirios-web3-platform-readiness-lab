@@ -1,0 +1,18 @@
+{
+  "service": "goldencity-mvp",
+  "environment": "production",
+  "persistence_enabled": false,
+  "auth_configured": false,
+  "dynamic_remote_code_execution": true,
+  "secrets_managed": false,
+  "rpc_failover": false,
+  "indexer_enabled": false,
+  "idempotent_event_ingestion": false,
+  "reconciliation_job": false,
+  "wallet_transaction_tracking": false,
+  "contract_events_mapped": false,
+  "staking_source_of_truth": "",
+  "observability": false,
+  "health_checks": false,
+  "backup_restore": false
+}
